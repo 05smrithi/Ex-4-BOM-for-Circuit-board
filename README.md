@@ -1,135 +1,116 @@
-# Ex-4-BOM-for-Circuit-board
-
-**Aim  **
-To create and generate the Bill of Materials (BOM) for a printed circuit board (PCB) design using Proteus Design Suite, and to understand the importance of component documentation in PCB manufacturing and assembly.
-
-**Apparatus Required**
-
-S.No	Components/Software	Specification
-
-1	Computer System	Windows 10/11
-2	Proteus Design Suite	Version 8.0 or above
-3	Electronic Circuit Schematic	Any completed circuit
-4	PCB Layout	Designed in Proteus ARES
-5	Electronic Components	Resistors, Capacitors, ICs, Diodes, LEDs, Connectors, etc.
-6	Printer (Optional)	For BOM report
-7	Microsoft Excel/PDF Reader	To view exported BOM
-
-**Theory**
-
-A Bill of Materials (BOM) is a comprehensive list of all the electronic components required to manufacture and assemble a printed circuit board (PCB). It acts as a blueprint for production by providing complete information about every component used in the circuit.
-
-In PCB design, the BOM is automatically generated from the schematic after assigning component values and PCB footprints. It contains detailed information such as:
-
-Reference Designator
-
-Component Name
-
-Component Value
-
-Package/Footprint
-
-Quantity
-
-Manufacturer Part Number (optional)
-
-**Description**
-
-The BOM is one of the most important documents used during PCB fabrication because it enables engineers, purchasing departments, and manufacturers to procure the correct components and assemble the circuit accurately.
-
-Proteus Design Suite provides an automated Bill of Materials Generator, which extracts component information directly from the schematic database. This minimizes documentation errors, saves time, and ensures consistency between the schematic and PCB layout.
-
-The generated BOM can be exported in various formats such as:
-
-Microsoft Excel (.xls/.xlsx)
-
-CSV
-
-Text File
-
-HTML
-
-PDF (after conversion)
-
-A typical BOM entry includes:
-
-Reference	Component	Value	Package	Quantity
-R1	Resistor	1 kΩ	AXIAL-0.4	1
-C1	Capacitor	1000 µF	RADIAL	1
-D1–D4	Diode	1N4007	DO-41	4
-IC1	Voltage Regulator	7805	TO-220	1
-LED1	LED	Red	5 mm	1
-
-An accurate BOM helps in:
-
-Component procurement
-
-Cost estimation
-
-PCB assembly
-
-Inventory management
-
-Maintenance and troubleshooting
-
-Manufacturing documentation
-
-Thus, generating a BOM is an essential step before PCB fabrication and production.
+# Bill of Materials (BOM) for Circuit Board
+ 
+> **Register Number:** 212223060265  
+> **Student Name:** Smrithi K
 
 
 
-**Procedure**
+# Aim
 
-Open Proteus Design Suite.
+To generate the **Bill of Materials (BOM)** for a PCB design using Proteus Design Suite and understand its role in PCB manufacturing, assembly, and documentation.
 
-Create or open an existing schematic project.
 
-Ensure all components have:
 
-Correct values
+# Apparatus Required
 
-Reference designators
+| S.No | Component / Software | Specification |
+|:---:|----------------------|---------------|
+| 1 | Computer System | Windows 10/11 |
+| 2 | Proteus Design Suite | Version 8.0 or Above |
+| 3 | Electronic Circuit Schematic | Completed Circuit |
+| 4 | PCB Layout | Designed in Proteus ARES |
+| 5 | Electronic Components | Resistors, Capacitors, ICs, Diodes, LEDs, Connectors, etc. |
+| 6 | Microsoft Excel / PDF Reader | BOM Viewer |
+| 7 | Printer *(Optional)* | Report Printing |
 
-PCB footprints/packages
 
-Verify that the schematic has no electrical errors.
 
-Complete the PCB layout in the ARES module (if applicable).
+# Theory
 
-Navigate to the Output or Reports menu.
+A **Bill of Materials (BOM)** is a comprehensive list of all electronic components required to manufacture and assemble a Printed Circuit Board (PCB). It serves as an essential manufacturing document by providing details of every component used in the design.
 
-Select Bill of Materials (BOM) generation.
+A typical BOM includes:
 
-Review the generated component list.
+- Reference Designator
+- Component Name
+- Component Value
+- Package / Footprint
+- Quantity
+- Manufacturer Part Number *(Optional)*
 
-Verify the quantity, package, and component values.
+Proteus Design Suite automatically generates the BOM from the circuit schematic, minimizing manual documentation errors and ensuring consistency between the schematic and PCB layout.
 
-Export the BOM as Excel, CSV, or Text format.
+The generated BOM can be exported in formats such as:
 
-Save the generated report for PCB manufacturing and documentation.
+- Microsoft Excel (.xlsx)
+- CSV
+- Text File
+- HTML
+- PDF *(after conversion)*
 
-**Output**
 
-Generated Bill of Materials
-Reference Designator	Component	Value	Package	Quantity
-R1, R2	Resistor	1 kΩ	AXIAL-0.4	2
-C1	Capacitor	1000 µF	RADIAL	1
-C2	Capacitor	0.1 µF	Ceramic	1
-D1–D4	Diode	1N4007	DO-41	4
-IC1	Voltage Regulator	7805	TO-220	1
-LED1	LED	Red	5 mm	1
-J1	Connector	2-Pin	Terminal Block	1
+# Procedure
 
-**Observation**
+### Project Preparation
 
-All components are listed with correct reference numbers.
+- Opened the circuit project in Proteus Design Suite.
+- Verified component values, reference designators, and PCB footprints.
+- Ensured the schematic contained no electrical errors.
 
-Component values and PCB footprints are verified.
+### BOM Generation
 
-Quantity of each component is automatically calculated.
+- Navigated to the **Output/Reports** menu.
+- Generated the Bill of Materials.
+- Reviewed the component list for accuracy.
 
-BOM report is successfully exported for manufacturing.
+### Export
 
-**Result**
+- Verified component quantities and package information.
+- Exported the BOM in the required format for documentation and manufacturing.
 
-The Bill of Materials (BOM) for the circuit board was successfully generated using Proteus Design Suite. The BOM accurately listed all electronic components, their reference designators, values, quantities, and PCB footprints. The generated report can be used for component procurement, PCB assembly, manufacturing documentation, and quality control, ensuring efficient and error-free circuit board production.
+
+# Generated Bill of Materials
+
+> <img width="962" height="636" alt="Screenshot 2026-08-03 145027" src="https://github.com/user-attachments/assets/ba76b28b-1a66-4c15-885a-ceeaaf55552c" />
+
+
+
+# Experimental Observations
+
+| Parameter | Observation |
+|-----------|-------------|
+| Reference Designators | Verified |
+| Component Values | Correct |
+| PCB Footprints | Assigned Successfully |
+| Component Quantity | Automatically Generated |
+| BOM Export | Successful |
+
+
+
+# Skills Acquired
+
+### BOM Generation
+
+- Generated the Bill of Materials using Proteus Design Suite.
+- Extracted component information directly from the schematic.
+
+### PCB Documentation
+
+- Verified component values and reference designators.
+- Associated PCB footprints with schematic components.
+
+### Design Verification
+
+- Checked component quantities before manufacturing.
+- Ensured consistency between the schematic and PCB layout.
+
+### Manufacturing Documentation
+
+- Exported the BOM in standard formats.
+- Prepared component documentation for PCB fabrication and assembly.
+
+
+
+# Result
+
+The Bill of Materials (BOM) was successfully generated using Proteus Design Suite. The report accurately documented the component names, reference designators, values, quantities, and PCB footprints, making it suitable for component procurement, PCB assembly, and manufacturing documentation.
